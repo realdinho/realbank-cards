@@ -78,9 +78,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
                     <!-- Docker image name -->
-                    <image>
-                        <name>realbank/${project.artifactId}</name>
-                    </image>
+                    <imageName>realbank/${project.artifactId}</imageName>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
